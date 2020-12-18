@@ -1,0 +1,8 @@
+cradle:
+    stack:
+    - path: "./src"
+      component: "postgres-simple-listen-bug:lib"
+    - path: "./test"
+      component: "postgres-simple-listen-bug:test:postgres-simple-listen-bug-test"
+    - path: "./app"
+      component: "postgres-simple-listen-bug:exe:postgres-simple-listen-bug-exe"
